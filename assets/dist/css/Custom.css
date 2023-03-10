@@ -9,6 +9,12 @@
     .aboutus{
         font-size: 30px;
     }
+    .navheight{
+    height: 31px;
+    }
+    .navheight1{
+        height: 0px;
+        }
     @media screen and (min-width: 1000px) {
         .mt-n6 {
             margin-top: -8rem;
