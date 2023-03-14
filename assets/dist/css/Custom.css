@@ -2,12 +2,25 @@
         font-family: myFirstFont;
         src:url('../../weRecruieFont/IrisUPCBold.ttf');
     }
-      
+      .imagestyle{
+        width: 50%;
+        position: ab;
+        margin-bottom: -6%;
+        transform-origin: right;
+        transform: scale(1.5);
+      }
+      .link-secondary {
+        color: black;
+    }
+    a{
+        text-decoration: none !important;
+    }
     .myFonts {
         font-family: myFirstFont !important;
     }
     .aboutus{
-        font-size: 30px;
+        font-size: 18px;
+        font-family: Arial;
     }
     .navheight{
     height: 31px;
@@ -22,12 +35,12 @@
       }
     @media screen and (min-width: 800px) {
         .mt-n4 {
-            margin-top: -4rem;
+            margin-top: -3rem;
         }
       }
       @media screen and (min-width: 1000px) {
         .mt-n5 {
-            margin-top: -13rem;
+            margin-top: -11rem;
         }
       }
       @media screen and (max-width: 1000px) {
@@ -40,10 +53,13 @@
     }
     .respectnature{
         font-style: italic;
-    color: #6f3535;
+        color: gray;
+        font-size: 14px;
+        margin-top:0.5%;
     }
     p{
-        font-family: 'Poppins';
+        font-family: Arial;
+
     }
     .center-screen {
         display: flex;
